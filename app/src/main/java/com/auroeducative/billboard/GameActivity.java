@@ -30,8 +30,11 @@ public class GameActivity extends Activity {
 
     @Override
     public boolean dispatchKeyEvent(KeyEvent event) {
-        if(mode.equals("ad")){
+        if(mode.equals("ad")) {
             view.loadUrl("http://nwqm.pe.hu/AuroEducative/AuroEducative/PlayTutorial.html");
+            mode = "game";
+        //}else if (mode.equals("game")){
+        //    view.loadUrl("http://nwqm.pe.hu/AuroEducative/AuroEducative/count-js_game/count-game.html");
         } else {
             super.dispatchKeyEvent(event);
         }
