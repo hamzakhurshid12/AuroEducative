@@ -1,4 +1,4 @@
-# AuroEducative-Billboard
+# AuroEducative
 We are using roadside screens to educate out of school children through gamification.
 We display advertisements on these screens in idle time to generate revenue for self-sustainability.
 
