@@ -21,4 +21,4 @@ We display advertisements on these screens in idle time to generate revenue for 
 
 ## Ads
 
-![AdToTutorial-min.gif]
+![ezgif.com-gif-maker (1).gif]
