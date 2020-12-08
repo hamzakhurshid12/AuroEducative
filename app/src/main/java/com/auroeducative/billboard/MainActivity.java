@@ -1,6 +1,7 @@
 package com.auroeducative.billboard;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Build;
@@ -20,7 +21,8 @@ import com.universalvideoview.UniversalVideoView;
 public class MainActivity extends Activity {
 
     private static final String VIDEO_SAMPLE =
-            "https://developers.google.com/training/images/tacoma_narrows.mp4";
+            "http://nwqm.pe.hu/AuroEducative/AdVideos/Kurkure.mp4";
+
 
     private VideoView mVideoView;
     private TextView mBufferingTextView;
@@ -36,6 +38,10 @@ public class MainActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Intent i = new Intent(MainActivity.this, GameActivity.class);
+        startActivity(i);
+        finish();
 
         mVideoView = findViewById(R.id.videoview);
         mBufferingTextView = findViewById(R.id.buffering_textview);
