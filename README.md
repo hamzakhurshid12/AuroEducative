@@ -15,4 +15,6 @@ We display advertisements on these screens in idle time to generate revenue for 
 * JavaScript
 * HTML Canvas
 
+## Game
 
+![](count-game.gif)
