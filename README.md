@@ -18,3 +18,7 @@ We display advertisements on these screens in idle time to generate revenue for 
 ## Game
 
 ![](count-game.gif)
+
+## Ads
+
+![AdToTutorial-min.gif]
