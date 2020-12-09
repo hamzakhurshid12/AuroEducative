@@ -27,3 +27,9 @@ The system keeps playing advertisements until someone presses a key on the casin
 The system consists of short videos and interactive games which helps children to learn and have basic skills of reading, writing, and arithmetic. Besides the educational things, the system teaches them the basic etiquette of hygiene that other children learn from schools or the internet.
 
 ![](count-game.gif)
+
+
+
+## Team
+* Rosheen Naeem - Team Lead
+* Hamza Khurshid
